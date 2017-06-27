@@ -13,32 +13,6 @@ html,body{
   padding: 0px;
 }
 
-ul{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #6c7687;
-}
-
-li{
-  float: left;
-}
-
-li a{
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   padding-right:35px;
-   padding-left:35px;
-   text-decoration: none;
-}
-
-li a:hover{
-	text-decoration:underline;
-}
-
 /* CLASSES */
 
 .current{
@@ -51,5 +25,39 @@ li a:hover{
 
 .logo{
 	background-color:blue;
-	
+}
+
+.topbar{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	width:auto;
+	margin:0 auto;
+}
+
+/* IDS */
+
+#menucontents{
+	margin:0 auto;
+    padding: 0;	
+	display:inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #6c7687;	
+}
+
+#menucontents li{
+	float: left;
+}
+
+#menucontents li a{
+    display: block;
+    color: white;
+    text-align: center;
+	padding:14px 40px 16px 40px;
+    text-decoration: none;	
+}
+
+#menucontents li a:hover{
+	text-decoration:underline;
 }
