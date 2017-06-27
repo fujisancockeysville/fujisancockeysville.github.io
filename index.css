@@ -1,0 +1,48 @@
+/* GLOBAL TAGS */
+
+html{
+  overflow:auto;
+  background: url("diagonales_decalees.png");
+}
+
+html,body{
+  display:inline-block;
+  height:100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #6c7687;
+}
+
+li{
+  float: left;
+}
+
+li a{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover{
+	text-decoration:underline;
+}
+
+/* CLASSES */
+
+.current{
+  background-color:#386cc1;
+}
+
+.center{
+	text-align:center;
+}
