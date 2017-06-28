@@ -37,6 +37,11 @@ html,body{
 	margin:0 auto;
 }
 
+.font-main{
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
+
 /* IDS */
 
 #menucontents{

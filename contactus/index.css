@@ -3,7 +3,7 @@
 html{
   overflow:auto;
   background-color:grey;
-  background-image:url(f.gif);
+  background-image:url(b.png);
 }
 
 html,body{
@@ -35,6 +35,11 @@ html,body{
 	text-align:center;
 	width:auto;
 	margin:0 auto;
+}
+
+.font-main{
+	font-family: 'Philosopher';
+	font-weight: 900;
 }
 
 /* IDS */
