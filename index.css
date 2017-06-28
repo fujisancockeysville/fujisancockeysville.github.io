@@ -3,6 +3,7 @@
 html{
   overflow:auto;
   background-color:grey;
+  background-image:url(f.gif);
 }
 
 html,body{
@@ -24,7 +25,8 @@ html,body{
 }
 
 .logo{
-	background-color:blue;
+	background-color:#034cc1;
+	text-align:center;
 }
 
 .topbar{
@@ -33,6 +35,11 @@ html,body{
 	text-align:center;
 	width:auto;
 	margin:0 auto;
+}
+
+.font-main{
+	font-family: 'Philosopher';
+	font-weight: 900;
 }
 
 /* IDS */
