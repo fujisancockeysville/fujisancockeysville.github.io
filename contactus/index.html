@@ -29,7 +29,60 @@
 		</ul>
 	</div>
 	
-	<h1>Picture/Text soon to be here.</h1>
+	<div style="text-align:center;width:50%;margin:0 auto;">	
+		<strong>Fuji San<br></strong>
+		10015 A-3 York Road,<br>
+		Cockeysville, MD 21030 <br>
+		(410)-628-9098<br>
+		fujisancockeysville@gmail.com</br><br><br>
+		
+		For a quick repsonse or any questions, use this<br>
+		form to send a message to Fuji San management.<br>
+		Please fill out as much information as possible.<br>
+		Serious business inquiries only<br>
+		REMINDER: Please do NOT email food orders<br><br><br>
+		
+		* Denotes a required field.
+	</div>
 	
+	<div class = "form_section">
+
+		<form name="contactform" method="post" action="send_email.php">
+			<table>
+				<!-- Name -->
+				<tr class="padding">
+					<td width="50%"><label for="first_name">Name *</label></td>
+				 	<td width="50%"><input type="text" name="first_name" maxlength="50" size="30"></td>
+				</tr>
+
+				<!-- Phone Number -->
+				<tr class="padding">
+				 	<td><label for="telephone">Phone Number</label></td>
+				 	<td><input type="text" name="telephone" maxlength="30" size="30"></td>
+				</tr>
+				
+				<!-- Email Address -->
+				<tr class="padding">
+				 	<td><label for="email">Email Address *</label></td>
+				 	<td><input type="text" name="email" maxlength="80" size="30"></td>
+				</tr>
+
+				<!-- Comments -->
+				<tr class="padding">
+					<td><label for="comments">Comments *</label></td>
+				 	<td><textarea name="comments" maxlength="1000" cols="45" rows="6"></textarea>
+				 	</td>
+				</tr>
+				
+				<!-- Buttons -->
+				<tr class="padding">
+				 	<td colspan="2" style="text-align:center">
+				  		<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+				 	</td>
+				</tr>
+			</table>
+		</form>
+	</div>
   </body>
 </html>
