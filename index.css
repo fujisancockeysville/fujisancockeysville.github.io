@@ -1,9 +1,15 @@
+/* FONTS */
+@font-face {
+    font-family: "My Custom Font";
+    src: url("Friz Quadrata Bold.otf") format("truetype");
+}
+
 /* GLOBAL TAGS */
 
 html{
   overflow:auto;
   background-color:grey;
-  background-image:url(f.gif);
+  background-image:url(b.png);
 }
 
 html,body{
@@ -38,8 +44,12 @@ html,body{
 }
 
 .font-main{
-	font-family: 'Philosopher';
+	font-family: 'My Custom Font';
 	font-weight: 900;
+}
+
+.slide_container{
+	
 }
 
 /* IDS */
