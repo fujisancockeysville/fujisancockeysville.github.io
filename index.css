@@ -21,11 +21,6 @@ html,body{
 }
 
 /* CLASSES */
-
-.current{
-  background-color:#386cc1;
-}
-
 .center{
 	text-align:center;
 }
@@ -52,7 +47,29 @@ html,body{
 	
 }
 
+.mySlides {
+	display:none;
+	width: 100%;
+}
+
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+}
+
+.w3-badge{
+	width:19px;
+	height:19px;
+	padding:0;
+}	
+
+.dim{
+	opacity:0.5;
+}
+
 /* IDS */
+#current{
+	text-decoration:underline;
+}
 
 #menucontents{
 	margin:0 auto;
@@ -60,7 +77,7 @@ html,body{
 	display:inline-block;
     list-style-type: none;
     overflow: hidden;
-    background-color: #6c7687;	
+    background-color: rgb(173, 19, 129);
 }
 
 #menucontents li{
@@ -70,11 +87,12 @@ html,body{
 #menucontents li a{
     display: block;
     color: white;
-    text-align: center;
+	text-align: center;
 	padding:14px 40px 16px 40px;
     text-decoration: none;	
 }
 
 #menucontents li a:hover{
+	opacity:1;
 	text-decoration:underline;
 }
