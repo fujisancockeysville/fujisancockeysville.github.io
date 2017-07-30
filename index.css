@@ -96,3 +96,7 @@ html,body{
 	opacity:1;
 	text-decoration:underline;
 }
+
+#underline{
+	text-decoration:none;
+}
