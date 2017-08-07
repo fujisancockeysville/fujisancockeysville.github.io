@@ -11,7 +11,7 @@
 <html>
   <head>
     <meta charset = "utf-8">
-    <link rel = "stylesheet" href = "index.css"/>
+    	<link rel = "stylesheet" href = "index.css"/>
 		<link rel = "stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="shortcut icon" href="fill.png" type="image/x-icon" />
 	<!--
@@ -21,6 +21,7 @@
   </head>
   
   <body>
+		<header>
 			<div style="display:inline-block;vertical-align:top;">
 				<a href="https://fujisancockeysville.github.io/">
 					<img style="margin-top:10px;margin-left:5px;" src="fill.png"/>
@@ -38,37 +39,36 @@
 
 			<div class = "topbar">
 				<ul id="menucontents">
-					<li><a id = "current" href="https://fujisancockeysville.github.io/"><font size="5">Home</font></a></li>
+					<li><a id = "current" href="https://fujisancockeysville.github.io/"><font id = "menu_contents_font" size="5">Home</font></a></li>
 					<li><a class = "dim" href="/aboutus"><font size="5">About Us</font></a></li>
 					<li><a class = "dim" href="/menu"><font size="5">Menu</font></a></li>
 					<li><a class = "dim" href="/directions"><font size="5">Location & Hours</font></a></li>
 					<li><a class = "dim" href = "/contactus"><font size="5">Contact Us</font></a></li>
 				</ul>
 			</div>
+		</header>
+
+		<div id = "main_div">
+			<button id = "order_button">Order online</button>
+			<p>Random text containing some random words.</p>
+			<table id = "main_table">
+				<td>
+					<img class = "landscape" src="1.JPG" title="Drunken noodles">
+				</td>
+				<td>
+					<img class = "landscape" src="2.JPG" title="Whatever this is">
+				</td>
+				<td>
+					<img class = "landscape" src="3.JPG" title="whatever else this is">
+				</td>
+				<td>
+					<img class = "landscape" src="4.JPG" title="testing 12312413927417">
+				</td>
+			</table>
+		</div>
+		<div id = "hidden_div">
 			
-
-			<div class="w3-content w3-display-container" style="max-width:800px;">
-					<img class="mySlides" src="1.JPG">
-					<img class="mySlides" src="2.JPG">
-					<img class="mySlides" src="3.JPG">
-					<img class="mySlides" src="4.JPG">
-					<img class="mySlides" src="d.png">
-					<img class="mySlides" src="c.png">
-					<img class="mySlides" src="e.png">
-					<div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle" style="width:100%">
-					<div class = "w3-left w3-hover-text-blue" onclick="nextDiv(-1)">&#10094;</div>
-					<div class= "w3-right w3-hover-text-blue" onclick="nextDiv(1)">&#10095;</div>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
-
-				</div>
-			</div>
-
-			<script type = "text/javascript" src = "index.js"></script>	
+		</div>
+		<script type = "text/javascript" src = "index.js"></script>	
   </body>
 </html>
