@@ -13,10 +13,11 @@
     <meta charset = "utf-8">
     	<link rel = "stylesheet" href = "index.css"/>
 		<link rel = "stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="shortcut icon" href="fill.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="./pictures/fill.png" type="image/x-icon" />
 	<!--
 		<link rel = "stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Philosopher"/>
 	-->
+		<script type = "text/javascript" src = "index.js"></script>	
     <title>FujiSan | Home</title>
   </head>
   
@@ -24,51 +25,148 @@
 		<header>
 			<div style="display:inline-block;vertical-align:top;">
 				<a href="https://fujisancockeysville.github.io/">
-					<img style="margin-top:10px;margin-left:5px;" src="fill.png"/>
+					<img style="margin-top:10px;margin-left:5px;" src="./pictures/fill.png"/>
 				</a>
 			</div>	  
 			
 			<div style="display:inline-block;">
 				<a id = "underline" href="https://fujisancockeysville.github.io/">
-					<div><strong><font class = "font-main" color="#034cc1" size="7">FUJI</font></strong>
-						<strong><font class = "font-main" color="white" size ="7">SAN</font></strong>
+					<div><strong><font class = "font-main" color="#034cc1" size="6">FUJI</font></strong>
+						<strong><font class = "font-main" color="white" size ="6">SAN</font></strong>
 					</div>
-					<div class="logo"><font class = "font-main" color = "white" size="5">Thai & Sushi</font></div>
+					<div class="logo"><font class = "font-main" color = "white" size="4">Thai & Sushi</font></div>
 				</a>	
 			</div>
 
 			<div class = "topbar">
 				<ul id="menucontents">
-					<li><a id = "current" href="https://fujisancockeysville.github.io/"><font id = "menu_contents_font" size="5">Home</font></a></li>
-					<li><a class = "dim" href="/aboutus"><font size="5">About Us</font></a></li>
-					<li><a class = "dim" href="/menu"><font size="5">Menu</font></a></li>
-					<li><a class = "dim" href="/directions"><font size="5">Location & Hours</font></a></li>
-					<li><a class = "dim" href = "/contactus"><font size="5">Contact Us</font></a></li>
+					<li><a class = "tablinks" onclick="openCity(event, 'home')" id="defaultOpen"><font size="5">Home</font></a></li>
+					<li><a class = "tablinks" onclick="openCity(event, 'about_us')"><font size="5">About Us</font></a></li>
+					<li><a class = "tablinks" onclick="openCity(event, 'menu')"><font size="5">Menu</font></a></li>
+					<li><a class = "tablinks" onclick="openCity(event, 'loc')"><font size="5">Location & Hours</font></a></li>
+					<li><a class = "tablinks" onclick="openCity(event, 'contact')"><font size="5">Contact Us</font></a></li>
 				</ul>
 			</div>
 		</header>
 
-		<div id = "main_div">
+		<div id = "home" class = "tabcontent">
 			<button id = "order_button">Order online</button>
 			<p>Random text containing some random words.</p>
 			<table id = "main_table">
 				<td>
-					<img class = "landscape" src="1.JPG" title="Drunken noodles">
+					<img class = "landscape" src="./pictures/1.JPG" title="Drunken noodles">
 				</td>
 				<td>
-					<img class = "landscape" src="2.JPG" title="Whatever this is">
+					<img class = "landscape" src="./pictures/2.JPG" title="Whatever this is">
 				</td>
 				<td>
-					<img class = "landscape" src="3.JPG" title="whatever else this is">
+					<img class = "landscape" src="./pictures/3.JPG" title="whatever else this is">
 				</td>
 				<td>
-					<img class = "landscape" src="4.JPG" title="testing 12312413927417">
+					<img class = "landscape" src="./pictures/4.JPG" title="testing 12312413927417">
 				</td>
 			</table>
 		</div>
-		<div id = "hidden_div">
-			
+		
+		<div id="about_us" class="tabcontent">
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+
 		</div>
-		<script type = "text/javascript" src = "index.js"></script>	
+
+		<div id="menu" class="tabcontent">
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+			<h1>Picture/Text soon to be here.</h1>
+		</div>
+
+		<div id="loc" class="tabcontent">
+			<font size="4">				
+				<strong>Fuji San<br></strong>
+				10015 A-3 York Road,<br>
+				Cockeysville, MD 21030 <br>
+				(410)-628-9098<br>
+				fujisancockeysville@gmail.com</br><br>
+				
+				<strong>Business Hours</strong><br>
+				Monday-Thursday: 11:00AM - 9:30PM<br>
+				Friday: 11:00AM - 10:00PM<br>
+				Saturday: 12:00PM - 10:00PM<br>
+				Sunday: Closed<br><br>
+			
+				<strong>Payments accepted</strong><br>
+				Visa, Mastercard, American Express, Discover<br>
+				<img src="./pictures/cards.png"/>
+			</font>
+		</div>
+		
+		<div id = "contact" class = "tabcontent">
+			<div>	
+				<font size ="4">
+					<strong>Fuji San<br></strong>
+					10015 A-3 York Road,<br>
+					Cockeysville, MD 21030 <br>
+					(410)-628-9098<br>
+					fujisancockeysville@gmail.com</br><br><br>
+					
+					For a quick repsonse or any questions, use this<br>
+					form to send a message to Fuji San management.<br>
+					Please fill out as much information as possible.<br>
+					Serious business inquiries only<br>
+					REMINDER: Please do NOT email food orders<br><br><br>
+					
+					* Denotes a required field.
+				</font>
+			</div>
+		
+			<div class = "form_section">
+
+				<form name="contactform" method="post" action="send_email.php">
+					<table>
+						<!-- Name -->
+						<tr class="padding">
+							<td width="50%"><label for="first_name">Name *</label></td>
+						 	<td width="50%"><input type="text" name="first_name" maxlength="50" size="30"></td>
+						</tr>
+
+						<!-- Phone Number -->
+						<tr class="padding">
+						 	<td><label for="telephone">Phone Number</label></td>
+						 	<td><input type="text" name="telephone" maxlength="30" size="30"></td>
+						</tr>
+						
+						<!-- Email Address -->
+						<tr class="padding">
+						 	<td><label for="email">Email Address *</label></td>
+						 	<td><input type="text" name="email" maxlength="80" size="30"></td>
+						</tr>
+
+						<!-- Comments -->
+						<tr class="padding">
+							<td><label for="comments">Comments *</label></td>
+						 	<td><textarea name="comments" maxlength="1000" cols="45" rows="6"></textarea>
+						 	</td>
+						</tr>
+						
+						<!-- Buttons -->
+						<tr class="padding">
+						 	<td colspan="2" style="text-align:center">
+						  		<input type="submit" value="Submit">
+								<input type="reset" value="Reset">
+						 	</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		
+		<div id = "hidden_div"></div>
   </body>
 </html>
